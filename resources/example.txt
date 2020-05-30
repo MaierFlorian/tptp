@@ -1,0 +1,5 @@
+fof(difference_defn,axiom,
+    ( ! [B,C,D] :
+        ( member(D,difference(B,C))
+      <=> ( member(D,B)
+          & ~ member(D,C) ) ) )).
